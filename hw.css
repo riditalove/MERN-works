@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ .container{
+     margin: 10px 20px;
+    
+     
+ }
+
+.others{
+    display: flex;
+    gap: 10px;
+}
+
+
+ .caption{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .channel_name, .detail{
+    color: rgb(71, 70, 70);
+ }
+
+ .ok{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+
+ .youtube_page{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
