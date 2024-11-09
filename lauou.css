@@ -1,0 +1,61 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.but_1{
+    margin: 80px 40px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: bisque;
+    color: rgb(25, 34, 34);
+    font-weight: 700;
+    border: 2px solid rebeccapurple;
+}
+
+.ok{
+    margin: 20px 40px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 800;
+    border: 3px solid pink;
+
+}
+.lol{
+    border: 2px;
+    border-color: black;
+    margin-bottom: 20px;
+    background-color: bisque;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.box1{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    /* align-items will align the items in parallel */
+    /* align items work vertically */
+    align-items: center;
+    /* justify-content work horizontally */
+    justify-content: space-around;
+
+}
+
+.box2{
+    margin-top: 50px;
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.heading1, .p1{
+    border: 2px solid rebeccapurple;
+    margin: 20px 40px;
+
+}
+    
+
